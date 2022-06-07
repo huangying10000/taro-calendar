@@ -1,0 +1,65 @@
+.cell {
+  padding: 10px 0;
+  &-value {
+    text-align: right;
+    color: #969799;
+  }
+}
+
+.calendar {
+  color: #323233;
+
+  &-header {
+    padding: 30px 20px 0;
+    color: #636b82;
+
+    .icon {
+      color: #323233;
+    }
+
+    &-weekdays {
+      margin-top: 30px;
+    }
+  }
+
+  &-month {
+    padding: 0 20px 20px;
+  }
+
+  &-footer {
+    margin-top: 20px;
+  }
+
+  .calendar-weekday {
+    width: 14.285%;
+    height: 70px;
+    color: #636b82;
+
+    &-disabled {
+      color: #c8c9cc;
+    }
+
+    &-badge {
+      background: red;
+      width: 12px;
+      height: 12px;
+      border-radius: 100%;
+      margin: 6px auto;
+    }
+
+    .calendar-weekday-day {
+      width: 44px;
+      height: 44px;
+      line-height: 44px;
+      border-radius: 100%;
+      margin: 0 auto;
+    }
+
+    &-selected {
+      .calendar-weekday-day {
+        background: #0b2b64;
+        color: white;
+      }
+    }
+  }
+}
