@@ -1,0 +1,49 @@
+.t-c {
+  text-align: center;
+}
+
+.t-l {
+  text-align: left;
+}
+
+.t-r {
+  text-align: right;
+}
+
+
+.flex {
+  display: flex;
+
+  &-wrap {
+    flex-wrap: wrap;
+  }
+
+  &-column {
+    flex-flow: column;
+  }
+
+  &-center {
+    align-items: center;
+  }
+
+  &-baseline {
+    align-items: baseline;
+  }
+
+  &-1 {
+    flex: 1;
+    overflow: hidden;
+  }
+
+  &-content-between {
+    justify-content: space-between;
+  }
+
+  &-content-end {
+    justify-content: flex-end;
+  }
+
+  &-content-center {
+    justify-content: center;
+  }
+}
